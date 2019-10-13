@@ -1,0 +1,31 @@
+
+state={
+	id=400
+	name="STATE_400"
+
+	history={
+		owner = X66
+		victory_points = {
+			6332 3 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+
+		}
+		add_core_of = GER
+		add_core_of = LIT
+		add_core_of = POL
+		add_core_of = X65
+		add_core_of = X66
+	}
+
+	provinces={
+		266 281 348 395 3288 3351 3384 6332 6347 6375 9327 9346 9372 9398 11245 11265 11386 
+	}
+	manpower=1293600
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

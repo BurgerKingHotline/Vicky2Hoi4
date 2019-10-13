@@ -1,0 +1,60 @@
+﻿capital = 2
+set_research_slots = 0
+
+#oob = "AFG_OOB"
+
+# Starting tech
+set_technology = {
+}
+
+# Research Bonuses
+set_convoys = 0
+
+set_politics = {
+    ruling_party = neutrality
+    last_election = "1836.1.1"
+    election_frequency = 48
+    elections_allowed = no
+}
+
+set_rules = {
+    can_be_called_to_war = no
+    can_boost_other_ideologies = no
+    can_create_factions = no
+    can_declare_war_on_same_ideology = no
+    can_declare_war_without_wargoal_when_in_war = no
+    can_decline_call_to_war = yes
+    can_force_government = no
+    can_generate_female_aces = no
+    can_guarantee_other_ideologies = no
+    can_join_factions = no
+    can_join_factions_not_allowed_diplomacy = no
+    can_join_opposite_factions = no
+    can_lower_tension = no
+    can_not_declare_war = yes
+    can_occupy_non_war = no
+    can_only_justify_war_on_threat_country = no
+    can_use_kamikaze_pilots = no
+    units_deployed_to_overlord = no
+}
+
+set_popularities = {
+	neutrality = 100
+}
+
+add_ideas = {
+	uncivilized
+    culture_uncolonized
+}
+set_stability = 100
+set_war_support = 0
+create_country_leader = {
+    name = "Empty Lands"
+    desc = "POLITICS_MURAD_KHAN_DESC"
+    picture = "Mod/Yeet/gfx/leaders/oc/portrait_Chancellor_Glitterhoof.dds"
+    expire = "1965.1.1"
+    ideology = uncolonized_neutral
+    traits = {
+    }
+}
+

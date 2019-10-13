@@ -1,0 +1,29 @@
+
+state={
+	id=688
+	name="STATE_688"
+	resources={
+		steel=9.000
+	}
+
+	history={
+		owner = NEU
+		victory_points = {
+			4528 1 
+		}
+		buildings = {
+			infrastructure = 0
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+
+		}
+	}
+
+	provinces={
+		4528 10442 
+	}
+	manpower=12000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

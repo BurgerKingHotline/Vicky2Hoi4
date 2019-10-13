@@ -1,0 +1,32 @@
+
+state={
+	id=474
+	name="STATE_474"
+	resources={
+		steel=1.000
+		tungsten=1.000
+	}
+
+	history={
+		owner = X74
+		victory_points = {
+			4435 8 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 0
+			air_base = 5
+
+		}
+		add_core_of = RAJ
+		add_core_of = X74
+	}
+
+	provinces={
+		4435 
+	}
+	manpower=56000
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

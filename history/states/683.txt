@@ -1,0 +1,33 @@
+
+state={
+	id=683
+	name="STATE_683"
+	resources={
+		aluminium=2.000
+		chromium=3.000
+		rubber=0.000
+		steel=0.000
+		tungsten=0.000
+	}
+
+	history={
+		owner = NEU
+		victory_points = {
+			2159 1 
+		}
+		buildings = {
+			infrastructure = 0
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+
+		}
+	}
+
+	provinces={
+		2159 10972 12908 
+	}
+	manpower=639900
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

@@ -1,0 +1,32 @@
+
+state={
+	id=604
+	name="STATE_604"
+	resources={
+		aluminium=2.000
+		steel=4.000
+	}
+
+	history={
+		owner = NEU
+		add_core_of = CAN
+		add_core_of = X52
+		victory_points = {
+			10585 1 
+		}
+		buildings = {
+			infrastructure = 0
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+
+		}
+	}
+
+	provinces={
+		4218 5119 6728 7782 9615 10585 12636 12688 
+	}
+	manpower=20000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

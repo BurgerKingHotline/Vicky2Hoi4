@@ -1,0 +1,27 @@
+
+state={
+	id=701
+	name="STATE_701"
+
+	history={
+		owner = NEU
+		add_core_of = X26
+		victory_points = {
+			13047 1 
+		}
+		buildings = {
+			infrastructure = 0
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+
+		}
+	}
+
+	provinces={
+		13047 13048 13052 
+	}
+	manpower=180
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

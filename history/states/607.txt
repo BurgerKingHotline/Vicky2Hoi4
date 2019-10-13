@@ -1,0 +1,31 @@
+
+state={
+	id=607
+	name="STATE_607"
+	resources={
+		chromium=1.000
+		steel=21.000
+		tungsten=23.000
+	}
+
+	history={
+		owner = NEU
+		victory_points = {
+			9616 1 
+		}
+		buildings = {
+			infrastructure = 0
+			industrial_complex = 0
+			arms_factory = 0
+			air_base = 0
+
+		}
+	}
+
+	provinces={
+		1789 7845 9616 9695 10556 10602 10672 12535 12607 
+	}
+	manpower=20000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

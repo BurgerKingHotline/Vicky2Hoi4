@@ -1,0 +1,28 @@
+
+state={
+	id=543
+	name="STATE_543"
+
+	history={
+		owner = X79
+		victory_points = {
+			9907 8 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			arms_factory = 0
+			air_base = 5
+
+		}
+		add_core_of = ITA
+		add_core_of = X79
+	}
+
+	provinces={
+		910 1616 6875 9750 9879 9907 11833 11889 
+	}
+	manpower=1710896
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

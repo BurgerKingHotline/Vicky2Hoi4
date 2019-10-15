@@ -1,4 +1,10 @@
 ﻿l_english:
+  absolutist.1.t:0 "Absolutists Demand Referendum"
+absolutist.1.d:1 "The rapidly growing [Root.GetAdjective] absolutist movement has never claimed that they need majority support before they seize power, counting on uniting the nation under their leadership once their rule is established. However, it seems their public support has grown rapidly. Many absolutist are now calling [Root.GetLeader] a hypocrite, claiming to represent the wishes of the people while in reality turning a deaf ear to the masses.\n\nThe call for a referendum has been dismissed as typical attempts at disrupting the system by [Root.GetRulingParty] members so far, but at least it's a political measure. If we do not act now, the absolutists may choose the violent struggle as a better path to power."
+absolutist.1.a:0 "Suppress this hateful movement!"
+absolutist.1.b:0 "Don't pay any attention to them."
+absolutist.1.c:0 "If the people want it, we'll hold the referendum."
+
  communism_on_the_rise.t:0 "Communism on the Rise"
  communism_on_the_rise.d:0 "'While workers rise up against their oppressors around the world, those who claim to have achieved class consciousness in [Root.GetName] sit idly by and wait for change to come from within a political system so thoroughly corrupt, only revolution could save us from it!'\n\nSo speak new voices in the [Root.GetAdjective] communist movement. Referring to the rule of [Root.GetRulingParty] as a dictatorship of the bourgeois, they have begun calling for it to be brought out of power by any means necessary. Whether those means will come from within or without remains to be seen."
  communism_on_the_rise.a:0 "There may be those in the government itself who support such ideas."

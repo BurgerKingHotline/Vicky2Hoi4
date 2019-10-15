@@ -1,47 +1,3 @@
-colonize_us = {
-	icon = generic_political_actions
-
-	visible = { 
-		
-	}
-}
-colonize_as = {
-	icon = generic_political_actions
-
-	visible = { 
-		
-	}
-}
-colonize_ea = {
-	icon = generic_political_actions
-
-	visible = { 
-		
-	}
-}
-colonize_po = {
-	icon = generic_political_actions
-
-	visible = { 
-		
-	}
-}
-colonize_af = {
-	icon = generic_political_actions
-
-	visible = { 
-		
-	}
-}
-form_ngc = {
-	icon = generic_propaganda
-
-	visible = {
-		OR = {
-			tag = X66
-		}
-	}
-}
 propaganda_efforts = {
 	icon = generic_propaganda
 
@@ -62,6 +18,11 @@ MTG_naval_treaties = {
 		any_owned_state = {
 			is_coastal = yes
 		}
+	}
+}
+SAF_anti_colonialist_crusade = {
+	allowed = {
+		original_tag = SAF
 	}
 }
 
@@ -106,7 +67,16 @@ fascism_on_the_rise = {
 	icon = generic_fascism
 
 	allowed = {
-		always = yes
+		NOT = {
+			AND = {
+				has_dlc = "Man the Guns"
+				OR = {
+					original_tag = USA
+					original_tag = MEX
+					original_tag = ENG
+				}
+			}
+		}
 	}
 	
 	#visible = {
@@ -122,11 +92,12 @@ absolutist_on_the_rise = {
 		always = yes
 	}
 	
-	#visible = {
-	#	NOT = { has_government = absolutist }
-	#	has_idea_with_trait = absolutist_demagogue
-	#}
+	visible = {
+		NOT = { has_government = absolutist }
+		has_idea_with_trait = absolutist_minister
+	}
 }
+
 
 democratic_on_the_rise = {
 	icon = generic_democracy
@@ -145,25 +116,21 @@ communism_on_the_rise = {
 	icon = generic_communism
 
 	allowed = {
-		always = yes
+		NOT = {
+			AND = {
+				has_dlc = "Man the Guns"
+				OR = {
+					original_tag = USA
+					original_tag = MEX
+					original_tag = ENG
+				}
+			}
+		}
 	}
 	
 	#visible = {
 	#	NOT = { has_government = communism }
 	#	has_idea_with_trait = communist_revolutionary
-	#}
-}
-
-radical_on_the_rise = {
-	icon = generic_communism
-
-	allowed = {
-		always = yes
-	}
-	
-	#visible = {
-	#	NOT = { has_government = radical }
-	#	has_idea_with_trait = radical_revolutionary
 	#}
 }
 

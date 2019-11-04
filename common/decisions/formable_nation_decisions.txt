@@ -17,7 +17,6 @@ Italy_Form_category = {
 		available = {
 			is_subject = no
 			# Italy
-			custom_trigger_tooltip = {
 				controls_state = 292
 				controls_state = 359
 				controls_state = 319
@@ -29,7 +28,7 @@ Italy_Form_category = {
 				controls_state = 472
 				controls_state = 473
 				controls_state = 543
-		}
+			}
 
 		visible = {
 			OR = {
@@ -44,7 +43,6 @@ Italy_Form_category = {
 		complete_effect = {
 			set_cosmetic_tag = ITA
 			# Italy
-			hidden_effect = {
 				32 = { add_core_of = ROOT }
 				33 = { add_core_of = ROOT }
 				34 = { add_core_of = ROOT }
@@ -62,7 +60,6 @@ Italy_Form_category = {
 				543 = { add_core_of = ROOT }
 				462 = { add_core_of = ROOT }
 				357 = { add_core_of = ROOT }
-            }
 			}
 		}
 

@@ -1,1 +1,77 @@
-# At the moment, cleaned up. May be recreated in the future.
+Italy_Form_category = {
+
+	form_Italy = {
+
+		icon = generic_form_nation
+
+		allowed = {
+			OR = {
+				original_tag = X68
+				original_tag = X64
+				original_tag = VAT
+                		original_tag = X45
+				original_tag = X51
+				original_tag = X72
+			}
+
+		available = {
+			is_subject = no
+			# Italy
+			custom_trigger_tooltip = {
+				controls_state = 292
+				controls_state = 359
+				controls_state = 319
+				controls_state = 461
+				controls_state = 459
+				controls_state = 460
+				controls_state = 462
+				controls_state = 471
+				controls_state = 472
+				controls_state = 473
+				controls_state = 543
+		}
+
+		visible = {
+			OR = {
+				original_tag = X68
+				original_tag = X64
+				original_tag = VAT
+                		original_tag = X45
+				original_tag = X51
+				original_tag = X72
+			}
+
+		complete_effect = {
+			set_cosmetic_tag = ITA
+			# Italy
+			hidden_effect = {
+				32 = { add_core_of = ROOT }
+				33 = { add_core_of = ROOT }
+				34 = { add_core_of = ROOT }
+				35 = { add_core_of = ROOT }
+				292 = { add_core_of = ROOT }
+				319 = { add_core_of = ROOT }
+				358 = { add_core_of = ROOT }
+                		359 = { add_core_of = ROOT }
+				461 = { add_core_of = ROOT }
+				459 = { add_core_of = ROOT }
+				460 = { add_core_of = ROOT }
+				471 = { add_core_of = ROOT }
+				472 = { add_core_of = ROOT }
+				473 = { add_core_of = ROOT }
+				543 = { add_core_of = ROOT }
+				462 = { add_core_of = ROOT }
+				357 = { add_core_of = ROOT }
+            }
+			}
+		}
+
+		ai_will_do = {
+			factor = 200
+			modifier = {
+				factor = 200
+				is_historical_focus_on = yes
+			}
+		}
+	}
+}
